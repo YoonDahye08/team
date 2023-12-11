@@ -1,14 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
-import { IoIosExpand } from "react-icons/io";
 import RemoveBtn from './RemoveBtn'
 
 
 const getTopics = async () => {
-  const apiUrl = process.env.API_URL;
 
   try {
-    const res = await fetch(`${apiUrl}/api/topics`, {
+    const res = await fetch('https://team-roan-two.vercel.app/api/topics', {
       cache: 'no-store',
     });
     if (!res.ok) {

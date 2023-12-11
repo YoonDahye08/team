@@ -37,14 +37,14 @@ export default function AddTopicForm() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           type="text"
-          placeholder="Topic title"
+          placeholder="제목"
           className="border border-slate-500 p-3"
         />
         <textarea
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           type="text"
-          placeholder="Topic description"
+          placeholder="내용"
           className="border border-slate-500 p-3 h-32"
         />
         <button
