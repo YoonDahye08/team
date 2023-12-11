@@ -7,8 +7,8 @@ import Sidebar from '@/components/Sidebar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Admin',
-  description: 'MongoDB, Tailwind CSS, Next-Auth',
+  title: 'Club',
+  description: 'Club Approve',
 }
 
 export default function RootLayout({ children }) {
